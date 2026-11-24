@@ -1,0 +1,7 @@
+age = input("Tell me your age : ")
+age = int(age)
+
+if age>= 18:
+    print("You can vote")
+else:
+    print("Wait Kid")
