@@ -1,7 +1,10 @@
-age = input("Tell me your age : ")
-age = int(age)
+while(true):
+     mark = input("Tell me your Math : ")
+     mark = int(mark)
 
-if age>= 18:
-    print("You can vote")
-else:
-    print("Wait Kid")
+     if mark>= 90:
+        print("Cheetah hi Kehde")
+     elif (60<mark>90):
+        print("Thik hai bete")
+     else:
+        print("Ghar jake suthi babu")
